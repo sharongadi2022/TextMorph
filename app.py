@@ -13,13 +13,13 @@ from reader import Reader
 
 image_width = 150
 image_height = 150
-image = r"D:\\Projects\\DocumentGPT\\IntelliDocs\\logo.png"
+image = r"D:\\Projects\\Document\\TextMorph\\logo.png"
 #Sidebar contents
 with st.sidebar:
     # st.image(image, width=image_width, caption="Your Image Caption")
-    st.title('IntelliDocs')
+    st.title('TextMorph')
     add_vertical_space(5)
-    st.write('Made by Chollangi Chaitanya')
+    st.write('Made by Sharon Gadi')
 
 
 def main():
